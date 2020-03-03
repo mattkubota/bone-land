@@ -92,7 +92,7 @@ let count = document.querySelector(".js-count");
 let numOfDrags = 0;
 let ground, ceiling, leftWall, rightWall;
 let boxes = [];
-let maxBoxes = 100;
+let maxBoxes = 250;
 let barriers = [];
 let bird;
 let world, engine;
