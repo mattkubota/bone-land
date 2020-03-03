@@ -104,14 +104,9 @@ let boxImg;
 let bkgImg;
 
 function preload() {
-  dotImg = loadImage(
-    "images/3.png"
-    //"https://s3-us-west-2.amazonaws.com/s.cdpn.io/3410/_f.png"
-  );
+  dotImg = loadImage("images/3.png");
   boxImg = loadImage("images/3.png");
-  //"https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Emoji_with_Smiling_Eyes_large.png?v=1480481060"
   bkgImg = loadImage("images/3.png");
-  //"https://gravatar.com/avatar/5b056cc7af4f884f27692f2f06a1d2bd?s=80&d=https://static.codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png"
 }
 
 function resetBarrier() {
